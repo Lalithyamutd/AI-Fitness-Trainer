@@ -51,7 +51,7 @@ python main.py -t walk -vs videos/walk.mp4
 
 
 ## Squat Exercise
-![Squat](https://github.com/itzThillaiC/AI-Fitness-trainer/blob/main/output/output%20squat.gif)
+
 
 
 
