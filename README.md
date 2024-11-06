@@ -1,5 +1,14 @@
-# AI-Fitness-trainer
-An AI model used to help with the workout session by keeping track of counts and movement using the mediapipe library . Then using the appropriate body part angles , the count of exercise is determined.
+# AI-Fitness-trainer (Watch your own workout)
+This project leverages the MediaPipe library to create an AI-powered fitness trainer that tracks workout movements in real time. By monitoring body part positions and calculating angles during exercise, the model determines the count of repetitions for each movement.
+
+
+# Key Features:
+Real-time tracking of exercise movements using the MediaPipe library.
+Detection of body part angles to determine exercise completion.
+Accurate counting of exercise repetitions based on body posture.
+
+# How it Works:
+The AI model analyzes the user’s body position and movement during the workout session, calculates the angles of specific joints, and tracks the changes to accurately determine when a repetition is completed.
 
 ## Pull-Up Exercise
 ![Pull-Up](https://github.com/itzThillaiC/AI-Fitness-trainer/blob/main/output/output%20pull-up.gif?raw=true)
