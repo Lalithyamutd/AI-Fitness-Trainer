@@ -12,41 +12,29 @@ The AI model analyzes the user’s body position and movement during the workout
 
 ## Pull-Up Exercise
 
-A pull-up is an upper-body strength exercise. The pull-up is a closed-chain movement where the body is suspended by the hands and pulls up.As this happens, the elbows flex and the shoulders adduct and extend to bring the elbows to the torso.
-
-```
-python main.py -t pull-up -vs videos/pull-up.mp4
-```
+A pull-up is an upper-body strength exercise where the body is suspended by the hands and pulled upward. It is considered a closed-chain movement, meaning the hands are fixed in place while the body moves. During the exercise, the elbows flex and the shoulders adduct and extend, bringing the elbows toward the torso. This motion primarily targets the back, shoulders, and arms, making it an effective workout for upper-body strength.
 
 
 ## Push-Up Exercise
 
 
 
-A push-up is a conditioning exercise performed in a prone position by raising and lowering the body with the straightening and bending of the arms while keeping the back straight and supporting the body on the hands and toes.
+A push-up is a conditioning exercise performed in a prone position, where the body is raised and lowered by straightening and bending the arms. Throughout the movement, the back remains straight, and the body is supported by the hands and toes. This exercise primarily targets the chest, shoulders, and triceps while also engaging the core and lower body to maintain stability.
 
-```
-python main.py -t push-up -vs videos/push-up.mp4
-```
 
 
 ## Sit-Up Exercise
 
+The sit-up is an abdominal endurance exercise designed to strengthen, tone, and tighten the core muscles. Unlike a crunch, sit-ups involve a greater range of motion, engaging not only the abdominal muscles but also the hip flexors, lower back, and other stabilizing muscles to improve overall core strength.
 
-The sit-up is an abdominal endurance training exercise to strengthen, tighten and tone the abdominal muscles. It is similar to a crunch, but sit-ups have a fuller range of motion and condition additional muscles.
-```
-python main.py -t sit-up -vs videos/sit-up.mp4
-```
 
 
 
 ## Walking Exercise
 
 
+Walking is a low-impact cardiovascular exercise that engages the legs, core, and arms to improve overall fitness. It is an excellent way to enhance endurance, increase heart rate, and boost circulation. The simple, rhythmic movement helps build strength in the lower body while providing a full-body workout with minimal strain.
 
-```
-python main.py -t walk -vs videos/walk.mp4
-```
 
 
 
@@ -55,18 +43,13 @@ python main.py -t walk -vs videos/walk.mp4
 
 
 
-A squat is a strength exercise in which the trainee lowers their hips from a standing position and then stands back up. During the descent of a squat, the hip and knee joints flex while the ankle joint dorsiflexes.
+A squat is a fundamental strength training exercise where the individual lowers their hips from a standing position and then returns to an upright stance. This movement primarily targets the lower body, engaging the quadriceps, hamstrings, glutes, and calves. During the squat, the hip and knee joints bend (flex), while the ankle joint also bends (dorsiflexes) to maintain balance and proper posture.
 
-```
-python main.py -t squat -vs videos/squat.mp4
-```
+
 
 For dynamically detecting your realtime movements using your webcam , use these commands below:
 ```
-python main.py -t sit-up
-# or python main.py -t pull-up
-# or python main.py -t push-up
-# or python main.py -t squat
-# or python main.py -t walk
+python main.py --exercise_type "ExerciseType"
+
 ```
 
